@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        html::before {
+        content: "";
+        background-image: url("background.jpg");
+        opacity: 35%;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        }
+        header {
+            width: 75%;
+            float: left;
+            
+        }
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 1em;
+            margin: 0;
+            padding: 20px;
+        }
+        .sideBar {
+            float: right;
+            width: 15%;
+            background-color: rgb(0, 0, 255, .75);
+            color: white;
+            padding-left: 10px;
+
+        }
+        .mainText {
+            width: 75%;
+            float: left;
+        }
+        .headerSide {
+            float: right;
+            width: 15%;
+            font-size: 14px;
+            background-color: rgb(0, 0, 255, .75);
+            color: white;
+            padding-left: 10px;
+        }
+        .education h2{
+            background-color: rgb(0, 0, 255, .75);
+            width: 20%;
+            text-align: center;
+            color: white;
+        }
+        .experience h2{
+            background-color: rgb(0, 0, 255, .75);
+            width: 20%;
+            text-align: center;
+            color: white;
+        }
+        a:link {
+            color: darkblue;
+        }
+        a:visited{
+            color: darkblue;
+        }
+        a:hover{
+            color: purple;
+            text-decoration: none;
+        }
+        .headerSide a:link {
+            color: black;
+        }
+        .headerSide a:visited{
+            color: black;
+        }
+        .headerSide a:hover{
+            color: white;
+            text-decoration: none;
+        }
+        ul {
+            list-style-image: url('bullet.png');
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tyler Russell</h1>
+        <p>Interactive Web Design student at James Madison University</p>
+    </header>
+    <img id="resumePic" src="resumePicture.jpg" alt="Professional Picture" width="30%" height="30%">
+    <div class="headerSide">
+        <p>Virginia Beach, VA</p>
+        <p>(757) 813-6393</p>
+        <p><a href="tdrussell13@gmail.com"> tdrussell13@gmail.com</a></p>
+    </div>
+
+    <div class="mainText">
+    <section class="education">
+        <h2>EDUCATION</h2>
+        <p><strong><a href="https://www.jmu.edu" target="_blank">James Madison University</a></strong>, Harrisonburg, VA — Bachelor’s Degree in Interactive Web Design anticipated May 2024</p>
+        <p>August 2022 - Present</p>
+        <p>- 3.86 GPA</p>
+        <p><strong><a href="https://www.tcc.edu" target="_blank">Tidewater Community College</a></strong>, Virginia Beach, VA — Associate’s Degree in Business Administration</p>
+        <p>August 2020 - May 2022</p>
+        <p>- 3.88 GPA</p>
+        <p>- Dean’s List for 3 semesters</p>
+    </section>
+    
+    <section class="experience">
+        <h2>EXPERIENCE</h2>
+        <p><strong>City of Virginia Beach</strong>, Virginia Beach — Mobile/Web developer Intern</p>
+        <p>May 2023 - August 2023</p>
+        <p>Write, edit, and review HTML, CSS, and Javascript within codebases of many of the City’s published websites. Responsible for making all of our websites meet ADA standards that abide by WCAG 2.1 and AA. Built a small but functional React JS web app.</p>
+        <p><strong>Detail Garage</strong>, Virginia Beach — Sales Associate</p>
+        <p>February 2022 - January 2023</p>
+        <p>Use knowledge of products and experience of automotive detailing to assist customers with their needs, demonstrate correct procedures, and provide a great experience.</p>
+        <p><strong>CarMax</strong>, Virginia Beach — Reconditioning Associate</p>
+        <p>August 2021 - February 2022</p>
+        <p>Addressed customer concerns, detailed/repaired vehicles interior/exterior, maintained inventory, and assisted with importing and exporting of vehicles.</p>
+    </section>
+    </div>
+    
+    <div class="sideBar">
+    <section class="involvement">
+        <h2>Involvement</h2>
+        <ul>
+            <li>Member of Delta Tau Delta Fraternity</li>
+            <li>JMU American Marketing Association</li>
+            <li>JMU Student Advisory Board</li>
+            <li>JMU Alumni Association Student Committee</li>
+        </ul>
+    </section>
+    
+    <section class="achievements">
+        <h2>Academic Achievements</h2>
+        <ul>
+            <li> President's List x2</li>
+            <li>Dean’s List x4</li>
+            <li>Honor Roll x2</li>
+        </ul>
+    </section>
+    
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>ADA Compliance</li>
+            <li>Git</li>
+            <li>Video Production</li>
+            <li>Photoshop</li>
+            <li>Illustrator</li>
+            <li>Customer Service</li>
+        </ul>
+    </section>
+    </div>
+</body>
+</html>
