@@ -82,7 +82,7 @@ h2 {
   }
 
   .mainDesc h3 {
-    width: 600px;
+    max-width: 600px;
     margin: auto;
     margin-top: 50px ;
     margin-bottom: 50px ;
@@ -95,7 +95,7 @@ h2 {
 
   .mainDesc p {
     margin: auto;
-    width: 600px;
+    max-width: 600px;
     margin-top: 50px ;
     margin-bottom: 50px;
     font-family: 'Source Serif', serif;
@@ -275,3 +275,68 @@ h2 {
     margin-left: 100px;
     margin-top: 50px;
   }
+
+  form {
+    margin-top: 75px;
+  }
+
+  #contactBody::before {
+    content: "";
+    background: url("imgs/splash.jpg") center/cover no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+#backContact {
+  color: white;
+}
+
+.gallery {
+  margin-top: 25px;
+}
+
+#confirmed {
+  color: green;
+  text-shadow: 2px 2px 4px black;
+}
+
+#thanks {
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 50px ;
+  margin-bottom: 50px;
+  font-family: 'Source Serif', serif;
+  font-size: 24px;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#confirmation::before {
+  content: "";
+  background: url("imgs/splash.jpg") center/cover no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+#lightBG {
+  background: rgb(255, 255, 255, .1);
+  border-radius: 50px;
+}
+
+#btnmgn {
+  margin-bottom: 30px;
+}
