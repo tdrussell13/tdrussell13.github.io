@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'Passion One';
+    src: url('fonts/PassionOne-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Passion One Black';
+    src: url('fonts/PassionOne-Black.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Passion One Bold';
+    src: url('fonts/PassionOne-Bold.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Source Serif';
+    src: url('fonts/SourceSerif4_18pt-Regular.ttf');
+  }
+
+  h1 {
+    color: orange;
+    font-family: 'Passion One Bold', sans-serif;
+    font-size: 5rem;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px gray;
+  }
+
+.datePicker {
+    max-width: 600px;
+    margin-top: 75px;
+}
+
+.datePicker h3 {
+  font-family: 'Source Serif', serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#wvBG {
+background-image: url("imgs/wvBG.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+overflow: auto;
+background-position: center;
+}
+
+#btmHeader {
+    text-shadow: 1px 1px 10px black;
+    color: white;
+    opacity: 80%;
+}
+
+h2 {
+    font-family: 'Source Serif', serif;
+    font-size: 1.75rem;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 2rem;
+  }
+
+  .h2Black {
+    font-family: 'Source Serif', serif;
+    font-size: 1.75rem;
+    color: black;
+    padding-bottom: 2rem;
+  }
+
+  #wvBG h1 {  
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    font-family: 'Passion One', sans-serif;
+    font-size: 6rem;
+    opacity: 80%;
+    padding-top: 10rem;
+  }
+
+  #splash {
+    margin: auto;
+  }
+
+  .mainDesc h3 {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+    color: orange;
+    font-family: 'Passion One', sans-serif;
+    font-size: 82px;
+    text-align: center;
+    text-shadow: 2px 2px 4px gray;
+  }
+
+  .mainDesc p {
+    margin: auto;
+    width: 600px;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+    font-family: 'Source Serif', serif;
+    font-size: 24px;
+    color: black;
+    text-align: left;
+  }
+
+  .frontImg {
+    margin-top: 50px ;
+  }
+
+  body {
+    background-color: #ebebeb;
+  }
+
+  .map {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  iframe {
+    height: 400px;
+  }
+  
+
+  @media only screen and (max-width: 480px) {
+    iframe {
+        width: 480px;
+    }
+  }
+
+  @media only screen and (max-width: 5000px) {
+    iframe {
+        width: 1700px;
+    }
+  }
+
+  @media only screen and (max-width: 1099px) {
+    iframe {
+        width: 700px;
+    }
+  }
+
+  .btn {
+    border-radius: 20px;
+    background-color: #0f28b8;
+    border: 0;
+    font-weight: bold;
+  }
+
+  #hike h3 {
+    color: #0f28b8;
+    font-size: 72px;
+    text-shadow: none;
+  }
+
+  #hike a {
+    background-color: #7a724d;
+  }
+
+  #hike img {
+    margin-top: 70px;
+  }
+
+  #hike {
+    background-color: #E4E4E4;
+  }
+
+  .card {
+    box-shadow: 4px 4px 6px gray;
+    border: none;
+    margin-bottom: 50px !important;
+    margin-left: 10px !important;
+    margin-top: 75px;
+    border-radius: 20px;
+  }
+
+  .card-img-top {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    max-height: 300px;
+  }
+
+  .card-group {
+    margin-top: 150px;
+  }
+
+  .card a {
+    background-color: darkorange;
+  }
+
+  #staples h3 {
+    color: #0f28b8;
+    font-size: 72px;
+    text-shadow: none;
+  }
+
+  #staples a {
+    background-color: #7a724d;
+  }
+
+  #staples img {
+    margin-top: 70px;
+  }
+
+  #staples {
+    background-color: #E4E4E4;
+  }
+
+  .props {
+    max-width: 600px;
+    margin-top: 25px;
+    margin-bottom: 150px;
+  }
+
+  .propInfo {
+    color: black;
+    margin-top: 25px;
+  }
+
+  .carousel-item {
+    height: 65vh;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+  }
+
+  .props h4 {
+    font-family: 'Passion One', sans-serif;
+    color: #0f28b8;
+    font-size: 48px;
+  }
+
+  .props p {
+    font-family: 'Source Serif', serif;
+    color: black;
+    font-weight: medium;
+    font-size: 24px;
+  }
+
+  .props img {
+    margin-top: 30px;
+    width: 100%;
+    object-fit: cover;
+    height: 65vh;
+  }
+
+  .props {
+    background-color: #E2DFD3;
+    margin-left: 30px;
+  }
+
+  .propInfo p {
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .beds {
+    text-align: center !important;
+  }
+
+  .props a {
+    margin-bottom: 50px;
+  }
+
+
+  .checkout h2 {
+    color: black !important;
+  }
+
+  .backArrow {
+    color: black;
+    height: 60px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
