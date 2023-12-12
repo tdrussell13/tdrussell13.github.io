@@ -172,21 +172,15 @@ h2 {
     margin-bottom: 50px !important;
     margin-left: 10px !important;
     margin-top: 75px;
-    border-radius: 20px;
   }
 
   .card-img-top {
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    max-height: 300px;
+    height: 280px;
   }
 
-  .card-group {
-    margin-top: 150px;
-  }
 
   .card a {
-    background-color: darkorange;
+    background-color: darkorange !important;
   }
 
   #staples h3 {
@@ -220,6 +214,10 @@ h2 {
 
   .carousel-item {
     height: 65vh;
+  }
+
+  .galleryItem {
+    height: 100vh !important;
   }
   
   .carousel-item img {
@@ -278,19 +276,6 @@ h2 {
 
   form {
     margin-top: 75px;
-  }
-
-  #contactBody::before {
-    content: "";
-    background: url("imgs/splash.jpg") center/cover no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    opacity: 0.5;
-    z-index: -1;
   }
 
 #backContact {
