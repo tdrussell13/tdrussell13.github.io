@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'Passion One';
+    src: url('fonts/PassionOne-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Passion One Black';
+    src: url('fonts/PassionOne-Black.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Passion One Bold';
+    src: url('fonts/PassionOne-Bold.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Source Serif';
+    src: url('fonts/SourceSerif4_18pt-Regular.ttf');
+  }
+
+  h1 {
+    color: #450084;
+    font-family: 'Passion One Bold', sans-serif;
+    font-size: 5rem;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px gray;
+  }
+
+.datePicker {
+    max-width: 300px;
+    margin-top: 75px;
+}
+
+.datePicker h3 {
+  font-family: 'Source Serif', serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#cbBG {
+background-image: url("imgs/pool.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+overflow: auto;
+background-position: center;
+}
+
+#fpBG {
+  background-image: url("imgs/outsideDeck.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  background-position: center;
+  }
+
+  #toursBG {
+    background-image: url("imgs/outsideCH.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    background-position: center;
+    }
+
+    #contactBG {
+      background-image: url("imgs/office.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: auto;
+      background-position: center bottom;
+      }
+
+  #fpBG h1 {
+    color: white;
+    text-shadow: 4px 2px 4px black;
+    font-family: 'Passion One', sans-serif;
+    font-size: 6rem;
+    opacity: 80%;
+    padding: 10rem;
+    }
+
+    #toursBG h1 {
+      color: white;
+      text-shadow: 4px 2px 4px black;
+      font-family: 'Passion One', sans-serif;
+      font-size: 6rem;
+      opacity: 80%;
+      padding: 10rem;
+    }
+
+    #contactBG h1 {
+      color: white;
+      text-shadow: 4px 2px 4px black;
+      font-family: 'Passion One', sans-serif;
+      font-size: 6rem;
+      opacity: 80%;
+      padding: 10rem;
+    }
+
+#btmHeader {
+    text-shadow: 1px 1px 10px black;
+    color: white;
+    opacity: 80%;
+}
+
+h2 {
+    font-family: 'Source Serif', serif;
+    font-size: 1.75rem;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 2rem;
+  }
+
+  .h2Black {
+    font-family: 'Source Serif', serif;
+    font-size: 1.75rem;
+    color: black;
+    padding-bottom: 2rem;
+  }
+
+  #cbBG h1 {  
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    font-family: 'Passion One', sans-serif;
+    font-size: 6rem;
+    opacity: 80%;
+    padding-top: 10rem;
+  }
+
+  .mainDesc h3 {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+    color: #450084;
+    font-family: 'Passion One', sans-serif;
+    font-size: 82px;
+    text-align: center;
+    text-shadow: 2px 2px 4px gray;
+  }
+
+  .mainDesc p {
+    margin: auto;
+    max-width: 600px;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+    font-family: 'Source Serif', serif;
+    font-size: 24px;
+    color: black;
+    text-align: left;
+  }
+
+  .frontImg {
+    margin-top: 50px ;
+  }
+
+  body {
+    background-color: #ebebeb;
+  }
+
+  .btn {
+    border-radius: 20px;
+    background-color: #CBB677;
+    border: 0;
+    font-weight: bold;
+  }
+
+  .props {
+    max-width: 600px;
+    margin-top: 25px;
+    margin-bottom: 150px;
+  }
+
+  .propInfo {
+    color: black;
+    margin-top: 25px;
+  }
+
+  .carousel-item {
+    height: 65vh;
+  }
+
+  .galleryItem {
+    height: 100vh !important;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+  }
+
+  .props h4 {
+    font-family: 'Passion One', sans-serif;
+    color: #450084
+    ;
+    font-size: 48px;
+  }
+
+  .props p {
+    font-family: 'Source Serif', serif;
+    color: black;
+    font-weight: medium;
+    font-size: 24px;
+  }
+
+  .props img {
+    margin-top: 30px;
+    width: 100%;
+    object-fit: cover;
+    height: 65vh;
+  }
+
+  .props {
+    margin-left: 30px;
+  }
+
+  .props ul {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .props li {
+    list-style-type: none;
+    margin-right: 15px;
+  }
+
+  .propInfo {
+    background-color: #F9F9F9;
+  }
+
+  .propInfo h4 {
+    padding-top: 20px;
+  }
+
+  .propInfo p {
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .props a {
+    margin-bottom: 50px;
+  }
+
+  form {
+    margin-top: 75px;
+  }
+
+.gallery {
+  margin-top: 25px;
+}
+
+#confirmed {
+  color: green;
+  text-shadow: 2px 2px 4px black;
+}
+
+#thanks {
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 50px ;
+  margin-bottom: 50px;
+  font-family: 'Source Serif', serif;
+  font-size: 24px;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#confirmation::before {
+  content: "";
+  background: url("imgs/lRoom.jpg") center/cover no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+#lightBG {
+  background: rgb(255, 255, 255, .3);
+  border-radius: 50px;
+}
+
+#btnmgn {
+  margin-bottom: 30px;
+}
+ .confirmed {
+  background-color: #CCCC9C;
+  color: black;
+  box-shadow: 1px 1px 4px black;
+ }
